@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(to right, 
+    red, orange, yellow, green, blue, indigo, violet);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    width: 33.33%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-img {
+    height: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.name {
+    position: relative;
+    padding: 10px;
+}
+
+button {
+    position: relative;
+    display: none; 
+}
+
+
+
